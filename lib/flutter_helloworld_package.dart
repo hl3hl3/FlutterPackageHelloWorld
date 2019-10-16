@@ -10,6 +10,7 @@ class HelloWorldWidget extends StatelessWidget {
       color: Colors.orange,
       child: Text(
         'Hello World!',
+        textDirection: TextDirection.ltr,
         style: Theme.of(context).textTheme.title.apply(color: Colors.white),
       ),
     );
